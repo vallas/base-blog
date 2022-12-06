@@ -1,0 +1,32 @@
+---
+layout: ./base.njk
+bodyClass: body-home
+--- 
+
+<div class="doc">
+  {% include "templates/plugin-navbar.njk" %}
+
+  <main class="doc-content">
+    <header class="doc-header">
+      <h1>
+        {{ title }}
+        {% if enabled %}
+          <span class="tag is-small">Installed</span>
+        {% endif %}
+      </h1>
+      {{ description | md | safe }}
+
+      {% if docs %}
+      <div class="doc-cta">
+        <a href="https://doc.deno.land/https/deno.land/x/lume@{{ lastVersion }}/{{ docs }}" class="button is-primary is-big">
+          See available Options in Deno Doc
+        </a>
+      </div>
+    {% endif %}
+    </header>
+
+    <div class="doc-body">
+      {{ content | safe }}
+    </div>
+  </main>
+</div>

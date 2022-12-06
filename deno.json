@@ -1,0 +1,13 @@
+{
+  "importMap": "import_map.json",
+  "tasks": {
+    "build": "deno task lume",
+    "serve": "deno task lume -s",
+    "lume": "echo \"import 'lume/cli.ts'\" | deno run --unstable -A -",
+    "wasmbuild": "deno run -A https://deno.land/x/wasmbuild@0.8.5/main.ts"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "npm:preact"
+  }
+}

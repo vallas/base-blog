@@ -1,0 +1,10 @@
+.doc-navbar {
+    grid-area: sidebar;
+    position: sticky;
+    top: 100px;
+    float: right;
+}
+  
+.doc-navbar > .doc-navbar-section-links a {
+    padding-left: 1em;
+}

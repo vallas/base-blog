@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>base-blog</title>
+	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+	<link href="http://localhost:3000/feed.xml" rel="self"/>
+	<link href="http://localhost:3000/"/>
+	
+	<updated>2022-12-06T02:00:51+01:00</updated>
+	<id>http://localhost:3000/</id>
+	<author>
+		<name>Your Name Here,</name>
+		<email>youremailaddress@example.com,</email>
+	</author>
+	<entry>
+		<title>Wiki</title>
+		<link href="http://localhost:3000/posts/wiki/"/>
+		<updated>2021-01-01T01:00:00+01:00</updated>
+		<id>http://localhost:3000/posts/wiki/</id>
+		<content type="html">&lt;h1&gt;Hello&lt;/h1&gt;
+&lt;h1&gt;{{ text }}&lt;/h1&gt;
+&lt;h1&gt;Hello&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Summaries&lt;/li&gt;
+&lt;li&gt;Text to speech&lt;/li&gt;
+&lt;li&gt;Auto classification of content (misc, hn, ...)&lt;/li&gt;
+&lt;/ul&gt;</content>
+	</entry>
+</feed>

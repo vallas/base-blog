@@ -1,0 +1,43 @@
+.navbar {
+  bottom: 1rem;
+  border-bottom: 0.5px inset var(--lightgray);
+  display: flex;
+  flex-wrap: wrap;
+  position: sticky;
+  position: fixed;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(8px);
+  & a {
+    padding: 1em;
+    display: block;
+
+    &:not(:hover) {
+      text-decoration: none;
+    }
+  }
+}
+
+.navbar-home {
+  text-decoration: none;
+}
+
+.navbar-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  & [aria-current="page"] {
+    /*font-weight: bold;
+    text-decoration: underline;*/
+    text-decoration: none;
+  }
+
+}
+.navbar-search {
+  padding: 0 1em;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}

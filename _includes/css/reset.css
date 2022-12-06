@@ -1,0 +1,78 @@
+:root {
+  --red: #c04;
+  --lightgray: #e6e6e6;
+  --darkgray: #0d1117;
+  --blue: #135;
+  --white: #fff;
+}
+
+/*
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v6/ODelI1aHBYDBqgeIAH2zlNzbP97U9sKh0jjxbPbfOKg.ttf) format('truetype');
+  
+}*/
+
+
+html, 
+body {
+  padding: 0;
+  margin: 0;
+ 
+  font-family: Courier;
+  font-weight: 400;
+  color: var(--darkgray);
+  background-color: var(--white);
+}
+
+oom-search::part(input)::placeholder {
+  font-family: Trebuchet MS;
+}
+
+main {
+  padding: 5vh 5vw;
+
+  & > :first-child {
+    margin-top: 0;
+  }
+}
+
+a {
+  //color: var(--blue);
+  color: var(--dark);
+}
+
+/* Warning */
+.warning {
+  background-color: white;
+  padding: 1em 0.5em;
+  opacity: 0.2;
+}
+
+table {
+  margin: 1em 0;
+
+  & td,
+  & th {
+    padding-right: 1em;
+  }
+}
+
+pre,
+code {
+  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+hr {
+  border: 0;
+  border-top: solid 2px var(--lightgray);
+  margin: 5vh 0;
+}
+
+.t {
+font-family: 'Source Code Pro', monospace;
+}

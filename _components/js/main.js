@@ -1,0 +1,1 @@
+import e from"./vendor/searcher/searcher.js";customElements.define("oom-search",e),document.addEventListener("keydown",(function(e){if(e.metaKey&&"KeyK"===e.code){console.log("Alt+C working 🟢");document.getElementById("search").input.focus()}}));const o=new URL("",import.meta.url).pathname;console.log("Current directory: "+o),console.log("hello");

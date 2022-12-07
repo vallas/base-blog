@@ -1,0 +1,20 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "base-blog",
+  "home_page_url": "http://localhost:3000/",
+  "feed_url": "http://localhost:3000/feed.json",
+  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "author": {
+    "name": "Your Name Here,",
+    "url": "https://example.com/about-me/"
+  },
+  "items": [
+    {
+      "id": "http://localhost:3000/posts/wiki/",
+      "url": "http://localhost:3000/posts/wiki/",
+      "title": "Wiki",
+      "content_html": "<h1>Hello</h1>\n<h1>{{ text }}</h1>\n<h1>Hello</h1>\n<ul>\n<li>Summaries</li>\n<li>Text to speech</li>\n<li>Auto classification of content (misc, hn, ...)</li>\n</ul>",
+      "date_published": "2021-01-01T01:00:00+01:00"
+    }
+  ]
+}
